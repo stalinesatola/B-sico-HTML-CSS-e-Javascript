@@ -5,14 +5,20 @@
     <body>
         <!--formulario apos clicar no botao que leve para outra pagina com o ACTION-->
         <form method="POST" action="/registrar">
-            <input type="text">
+            <!--podemos obrigar o numero de caracteres e o tipo-->
+            <input type="text" pattern="[a-zA-Z]{3}">
             <input type="password">
             <input type="number">
             <input type="date">
             <input tyoe="hidden">
             <input type="email">
-            <input type="file">
+            <!--como o multiple podemos permitir arquivos especificos-->
+            <input type="file" multiple accept=".jpg, .png. .gif">
+            <input type="radio">
+            <input type="checkbox">
             <input type="submit" value="Enviar">
+            <!--limpa o formulario-->
+            <input type="reset" value="Limpar">
         </form>
     </body>
 </html>
