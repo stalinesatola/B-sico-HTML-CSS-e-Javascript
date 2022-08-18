@@ -14,11 +14,11 @@
                 <img id="logo">
                 <div class="main-navigation">
                     <ul class="main-navigation-ul">
-                        <li><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="">4</a></li>
-                        <li><a href="">5</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre nós</a></li>
+                        <li><a href="">Contacots</a></li>
+                        <li><a href="">Porjectos</a></li>
+                        <li><a href="">Trabalje conosco</a></li>
                     </ul>
                 </div>
                 <!--chama a funcao menuFn ao clicar-->
@@ -35,5 +35,14 @@
                 </script>
             </div>
         </nav>
+        <script src="js/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+
+                $('.burguer-container').on('click', function() {
+                    $('.main-navigation').toggle('slow');
+                })
+            });
+        </script>
     </body>
 </html>
