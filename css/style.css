@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+.site-container{
+    width: 1115px;
+    margin: 0 auto;
+}
+@media (max-width: 1250px){
+    .site-container{
+        width: 90%;
+    }
+}
 .naigation{
     position: absolute;
     top: 4.6%;
@@ -64,14 +72,14 @@
     transition: 0.4s;
 }
 .change .bar1{
-    transform: rotate(-45deg) translate(-6pc, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
     background-color: #c18f59;
 }
 .change .bar2{
-    transform: rotate(-45deg) translate(-6pc, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
     background-color: #c18f59;
 }
 .change .bar3{
-    transform: rotate(45deg) translate(-6pc, -7px);
+    transform: rotate(45deg) translate(-6px, -7px);
     background-color: #c18f59;
 }
